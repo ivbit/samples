@@ -38,7 +38,7 @@ done
 
 # Number AND 1 equals to 1 if the number is odd,
 # otherwise it equals to 0.
-# Use instead of modulus operator 'num & 2'.
+# Use instead of modulus operator 'num % 2'.
 for num in 4 5 6 7 8 9
 do
 let 'num & 1' && echo "$num is odd" || echo "$num is even"
